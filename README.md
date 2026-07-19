@@ -1,10 +1,19 @@
-# Taskmaster
+<h1 align="center">Taskmaster</h1>
 
-A modern task management application with a Next.js frontend and FastAPI backend.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+</p>
 
-## Overview
+<p align="center">
+  <em>A modern task management app with Next.js frontend & FastAPI backend</em>
+</p>
 
-Taskmaster is a full-stack task management solution combining a sleek Next.js interface with a powerful FastAPI backend. Manage your tasks efficiently with real-time updates and intuitive UX.
+---
 
 ## Features
 
@@ -13,16 +22,7 @@ Taskmaster is a full-stack task management solution combining a sleek Next.js in
 - Real-time updates
 - User authentication
 - Responsive dashboard
-- RESTful API architecture
-
-## Tech Stack
-
-- **Next.js** — Frontend framework
-- **TypeScript** — Type-safe code
-- **FastAPI** — Python backend API
-- **Prisma** — Database ORM
-- **React** — UI components
-- **Python** — Backend logic
+- RESTful API with auto-generated docs
 
 ## Getting Started
 
@@ -39,9 +39,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-## API Documentation
-
-The FastAPI backend provides automatic Swagger documentation at `/docs`.
+API docs available at `/docs` (Swagger UI).
 
 ## Author
 
